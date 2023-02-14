@@ -1,11 +1,13 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { FormEvent, useState } from 'react';
 import  { GradientBackground } from '../components/Layout';
 import Footer from '../components/Footer'
 import moment from 'moment';
 import React from 'react';
+import { getGlobalData } from '../utils/global-data';
 
-export default function Form() {
+export default function Form({globalData}) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [group, setGroup] = useState('');
@@ -56,15 +58,15 @@ export default function Form() {
       />
       <div className='flex items-center justify-between mt-[-60px] mx-4'>
 <div>
-  <a href="/">
+  <Link href="/">
 
 <button type="button" className=" mt-6 rotate-180 text-purple-500 border border-purple-500 hover:bg-purple-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-purple-400 dark:text-purple-300 dark:hover:text-white dark:focus:ring-blue-800">
   <svg aria-hidden="true" className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
   <span className="sr-only">Icon description</span>
 </button>
-  </a>
+  </Link>
 </div>
-      <Footer  />
+      <Footer copyrightText={globalData.footerText}  />
       </div>
    
       <main className=" min-h-screen mx-8 ">
@@ -80,7 +82,7 @@ export default function Form() {
                     Form
                   </h3>
                   <p className="mt-1 text-sm " >
-                  We're always looking for ways to improve this guide and make it as useful as possible. If you have any feedback, ideas, or suggestions, we would love to hear from you! 
+                  We are always looking for ways to improve this guide and make it as useful as possible. If you have any feedback, ideas, or suggestions, we would love to hear from you! 
                   </p>
                 </div>
               </div>
@@ -215,4 +217,12 @@ export default function Form() {
       /> */}
     </div>
   );
+}
+
+
+
+export function getStaticProps() {
+  const globalData = getGlobalData();
+
+  return { props: {  globalData } };
 }
