@@ -1,29 +1,88 @@
 const specialties = [
     {
-      name: "Applied Linguistics",
+      name: "Science of language",
       modules: [
-        "Advanced Topics in Linguistics",
-        "Language Acquisition and Teaching",
+        "Culture and Translation",
+        "Ethics and Conduct in Research",
+        "Main linguistic Theories",
+        "SOCIOLINGUISTICS",
+        "Phonetics and Phonology",
+        "ACADEMIC WRITING",
+        "RESEARCH METHODOLOGY",
+        "Introduction to Gender theories",
+        "French"
+      ]
+    },
+    {
+      name: "LITERATURE AND CIVILIZATION",
+      modules: [
+        "DISCOURSE ANALYSIS",
+        "ACADEMIC WRITING",
+        "Methodology",
+        "19TH CENTURY BRITISH LITERATURE",
+        "19TH CENTURY BRITISH HISTORY AND SOCIETY",
+        "19TH CENTURY AMERICAN LITERATURE",
+        "19TH CENTURY AMERICAN HISTORY AND",
+        "SOCIOLOGY",
+        "TRANSLATION",
+        "French"
+      ]
+    },
+    {
+      name: "LITERATURE AND INTERDISCIPLINARY APPROACHES",
+      modules: [
+        "Grammar",
         "Discourse Analysis",
-        "Research Methods in Linguistics"
+        "Commonwealth Studies",
+        "Afro–American Literature",
+        "Writing Techniques",
+        "African Civilization",
+        "British Civilization",
+        "History of the United States",
       ]
     },
     {
-      name: "Literary Studies",
+      name: "LANGUAGE AND COMMUNICATION",
       modules: [
-        "Literary Theory and Criticism",
-        "Modernism and Postmodernism",
-        "Shakespearean Drama",
-        "Contemporary Literature"
+        "Oral Communication",
+        "E-learning",
+        "Ethics and deontology",
+        "Discourse Analysis",
+        "Applied Linguislinguisticsics",
+        "Human resources development (HRD)",
+        "ICC Intercultural communicative competence",
+        "English for specific purposes (ESP)",
+        "Spanish",
+        "French",
       ]
     },
     {
-      name: "Cultural Studies",
+      name: "DIDACTICS OF FOREIGN LANGUAGES",
       modules: [
-        "Globalization and Culture",
-        "Gender and Sexuality Studies",
-        "Race and Ethnicity Studies",
-        "Media and Communication Studies"
+        "Phonetics cours+ td",
+        "General Linguistics cours+ td",
+        "Rsearch Methodology cours+ td",
+        "Intercultural Studies",
+        "Writing Techniques cours+ td",
+        "Morphosyntax",
+        "Didactics & Intercultural Studies",
+        "INFORMATIQUE",
+        "Phonology",
+        "French",
+      ]
+    },
+    {
+      name: "DIDACTICS AND APPLIED LINGUISTICS",
+      modules: [
+        "Psycholinguistics (cours+ td)",
+        "Writing Techniques ( Cours + TD)",
+        "INFORMATIQUE",
+        "Research Methodology",
+        "Child and teenage Psychology",
+        "Applied linguistics cours+ td",
+        "Cognitives Sciences cours+ td",
+        "Educational Psychology",
+        "TEFL cours+ td"
       ]
     }
   ];

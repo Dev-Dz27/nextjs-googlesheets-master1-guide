@@ -53,7 +53,7 @@ export default function Layout({ children }) {
   }, []);
 
   return (
-    <div className='font-mono'>
+    <div className='font-mono transition duration-300'>
 
       <Anouncement/>
     <div className="relative pb-24 overflow-hidden">

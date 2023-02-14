@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Next.js Blog Theme';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'this data is pulled from the Departement Website.';
 
   return {
     name,

@@ -54,7 +54,18 @@ export default function Form() {
         variant="large"
         className="fixed top-20 opacity-40 dark:opacity-60"
       />
+      <div className='flex items-center justify-between mt-[-60px] mx-4'>
+<div>
+  <a href="/">
+
+<button type="button" className=" mt-6 rotate-180 text-purple-500 border border-purple-500 hover:bg-purple-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-purple-400 dark:text-purple-300 dark:hover:text-white dark:focus:ring-blue-800">
+  <svg aria-hidden="true" className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+  <span className="sr-only">Icon description</span>
+</button>
+  </a>
+</div>
       <Footer  />
+      </div>
    
       <main className=" min-h-screen mx-8 ">
         <div className="max-w-5xl mx-auto py-16">
@@ -66,10 +77,10 @@ export default function Form() {
               <div className="md:col-span-1">
                 <div className="px-4 sm:px-0">
                   <h3 className="text-lg font-medium leading-6 ">
-                    Personal Information
+                    Form
                   </h3>
                   <p className="mt-1 text-sm " >
-                    Use a permanent address where you can receive mail.
+                  We're always looking for ways to improve this guide and make it as useful as possible. If you have any feedback, ideas, or suggestions, we would love to hear from you! 
                   </p>
                 </div>
               </div>
@@ -78,7 +89,7 @@ export default function Form() {
                   <div className="overflow-hidden shadow sm:rounded-md">
                     <div className="bg-opacity-5 dark:bg-opacity-50 bg-black backdrop-blur-lg rounded drop-shadow-lg px-4 py-5 sm:p-6">
                       <div className="grid grid-cols-6 gap-6">
-                        <div className="col-span-6 sm:col-span-3">
+                        <div className="col-span-6 sm:col-span-4">
                           <label
                             htmlFor="name"
                             className="block text-sm font-medium"
@@ -144,7 +155,7 @@ export default function Form() {
                            name="group"
                            id="group"
                             autoComplete="country-name"
-                            className="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full rounded-md border opacity-90 border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                           >
                             <option>01</option>
                             <option>02</option>
@@ -174,7 +185,7 @@ export default function Form() {
                             name="message"
                             id="message"
                             // rows="3"
-                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full rounded-md opacity-90 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                             placeholder="Wubba Lubba Dub dub!"
                           ></textarea>
                         </div>

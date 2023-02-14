@@ -87,7 +87,7 @@ function Form() {
     <div className="md:col-span-1">
       <div className="px-4 sm:px-0">
         <h3 className="text-lg font-medium leading-6 text-gray-900">Personal Information</h3>
-        <p className="mt-1 text-sm text-gray-600">Use a permanent address where you can receive mail.</p>
+        <p className="mt-1 text-sm text-gray-600">We are always looking for ways to improve this guide and make it as useful as possible for students. If you have any feedback, ideas, or suggestions for how we can make this website even better, we would love to hear from you! </p>
       </div>
     </div>
     <div className="mt-5 md:col-span-2 md:mt-0">
