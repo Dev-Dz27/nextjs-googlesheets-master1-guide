@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getPosts } from '../utils/mdx-utils';
+// import { getPosts } from '../utils/mdx-utils';
 const specialties = require('../utils/specialities');
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -62,8 +62,10 @@ export default function Index({ posts, globalData }) {
 }
 
 export function getStaticProps() {
-  const posts = getPosts();
+  // const posts = getPosts();
   const globalData = getGlobalData();
 
-  return { props: { posts, globalData } };
+  return { props: { 
+    // posts, 
+    globalData } };
 }

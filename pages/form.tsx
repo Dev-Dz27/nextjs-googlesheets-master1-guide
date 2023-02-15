@@ -153,7 +153,6 @@ export default function Form({globalData}) {
                           <select
                            value={group}
                            onChange={(e) => setGroup(e.target.value)}
-                           type="text"
                            name="group"
                            id="group"
                             autoComplete="country-name"

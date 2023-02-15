@@ -7,6 +7,7 @@ import {
     Autoplay,
     EffectCreative,
   } from "swiper";
+  import Link from "next/link";
   
   import { Swiper, SwiperSlide } from "swiper/react";
   
@@ -72,10 +73,10 @@ import {
                     <div class="swiper-slide">
                       <p class="text-center text-sm font-medium">
                       Got feedback?
-                        <a class="underline" href="/form">
+                        <Link class="underline" href="/form">
                           {" "}
                           Contact us? &rarr;{" "}
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </SwiperSlide>
@@ -83,10 +84,10 @@ import {
                     <div class="swiper-slide">
                       <p class="text-center text-sm font-medium">
                       Help us improve  
-                        <a class="underline" href="/form">
+                        <Link class="underline" href="/form">
                           {" "}
                           this guide! &rarr;{" "}
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </SwiperSlide>
