@@ -69,18 +69,18 @@ import {
   
               <div class="swiper">
                 <div class="swiper-wrapper">
-                  <SwiperSlide>
+                  {/* <SwiperSlide>
                     <div class="swiper-slide">
                       <p class="text-center text-sm font-medium">
                       Got feedback?
-                        <Link class="underline" href="/form">
+                        <Link className="underline" href="/">
                           {" "}
                           Contact us? &rarr;{" "}
                         </Link>
                       </p>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </SwiperSlide> */}
+                  {/* <SwiperSlide>
                     <div class="swiper-slide">
                       <p class="text-center text-sm font-medium">
                       Help us improve  
@@ -90,7 +90,7 @@ import {
                         </Link>
                       </p>
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </div>
               </div>
   

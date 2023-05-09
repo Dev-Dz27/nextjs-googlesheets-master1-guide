@@ -55,7 +55,7 @@ export default function Layout({ children }) {
   return (
     <div className='font-mono transition duration-300'>
 
-      <Anouncement/>
+      {/* <Anouncement/> */}
     <div className="relative pb-24 overflow-hidden">
       <div className="flex flex-col items-center max-w-2xl w-full mx-auto">
         
