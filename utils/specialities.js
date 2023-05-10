@@ -1,6 +1,6 @@
 const specialties = [
     {
-      name: "Science of language",
+      name: "SCIENCE OF LANGUAGE",
       modules: [
         "Culture and Translation",
         "Ethics and Conduct in Research",
